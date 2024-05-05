@@ -1,0 +1,20 @@
+Not every website has an API for us to work with. So in situations like
+that, the only way to get the data we want is to parse the html behind
+the web page, get rid of all the html tags and extract the actual data,
+this technique is called web scraping. So we scrape all the html tasks
+and get the actual data that we want.
+
+So, we're going to write a program that will extract a list of new list
+questions on stackoverflow.com. We refer to this kind of program as a
+web crawler or a web spider 
+
+
+Create a web crawler in Python:
+1. pipenv install beautifulsoup4 -> this is a very popular python package
+for extracting information from HTML and XML files.
+2. pipenv install requests -> Install the requests module to download the web page that contains the
+newest questions from stackoverflow.
+3. change the virtual environment
+4. create app.py
+5. pipenv install pylint --dev
+6. 
